@@ -21,6 +21,10 @@ class test
 		void print_sum()
 		{
 			cout<<"added a+b = "<<a+b<<"\n";
+		}
+		void print_mul()
+		{
+			cout<<"multipled a*b = "<<a*b<<"\n";
 		}		
 };
 
@@ -30,6 +34,7 @@ int main()
 
 	test t(4,8);
 	t.print_sum();
+	t.print_mul();
 
 	return 0;
 }
